@@ -1,4 +1,5 @@
 // ----------------------------------------------------------------------
+// defining some constants that we can acess anywhere easely
 
 function path(root, sublink) {
   return `${root}${sublink}`;

@@ -10,6 +10,7 @@ import LoadingScreen from "../components/LoadingScreen";
 
 const Loadable = (Component) => (props) => {
   return (
+    // loading using suspense 
     <Suspense fallback={<LoadingScreen />}>
       <Component {...props} />
     </Suspense>
